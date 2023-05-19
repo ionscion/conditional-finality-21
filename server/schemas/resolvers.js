@@ -50,8 +50,8 @@ const resolvers = {
         createUser: async (parent, args) => {
             const user = await User.create(args);
             const token = signToken(user);
-
-            return {token, user};
+    
+            return user;
         },
         saveBook: async (parent, {bookData}, context) => {
             const updatedUser = await User.findOneAndUpdate(
