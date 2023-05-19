@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 import { Form, Button, Alert } from 'react-bootstrap';
 
-// import { createUser } from '../utils/API';
 import { useMutation } from '@apollo/client';
 import Auth from '../utils/auth';
 import { CREATE_USER } from '../utils/mutations';
 
-//apolo provider
 
 const SignupForm = () => {
   // set initial form state
@@ -37,8 +35,8 @@ const SignupForm = () => {
       });
 
       Auth.login(data.createUser.token);
-    } catch (e) {
-      console.error(e);
+    } catch (error) {
+      console.error(error);
     }
     
 
