@@ -29,8 +29,7 @@ const typeDefs = gql`
   }
 
   type Query {
-    users: [User]
-    books: [Book]
+   me: User
   }
 
   type Auth {
