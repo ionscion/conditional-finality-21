@@ -18,7 +18,7 @@ To install the application, clone the repository and run `npm install` to instal
 
 ## Usage
 To use the application, run `npm start` to start the server and navigate to http://localhost:3000 in your browser.
-Application has also been deployed to Heroku and can be accessed at https://mern-book-search-engine.herokuapp.com/.
+Application has also been deployed to Heroku and can be accessed at https://obscure-shelf-26426.herokuapp.com/.
 
 ## License
 This application is covered under the MIT license.
@@ -28,7 +28,7 @@ Feel free to contact me with any questions via email or LinkedIn. Please visit m
 
 ## Links
 * [GitHub Repository](https://github.com/ionscion/conditional-finality-21)
-* [Deployed Application](https://mern-book-search-engine.herokuapp.com/)
+* [Deployed Application](https://obscure-shelf-26426.herokuapp.com/)
 
 ## Screenshots
-![Screenshot of the application's homepage](./client/public/images/homepage.png)
+![Screenshot of the application's homepage](./Assets/obscure-shelf-26426.herokuapp.com_saved.png)
